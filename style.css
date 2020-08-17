@@ -1,0 +1,36 @@
+.icon{
+	display: inline-block;
+
+		cursor: pointer;
+}
+body{
+	background-color: #efda9f;
+}
+span{
+	font-family: cursive;
+	font-size: 120%;
+}
+.fab{
+	color: white;
+	width: 40px;
+}
+
+img{
+	width:150px;
+	transition: transform linear;
+}
+img:hover{
+	transform: scale(1.2,1.2);
+}
+li{
+	list-style: none;
+}
+div li ul{
+	display:none;
+}
+div li:hover ul{
+	display: block;
+
+}
+
+
